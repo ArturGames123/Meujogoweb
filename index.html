@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Jogo Web</title>
+    <link rel="stylesheet" href="style.css">
+<style>/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tela Inicial */
+#startScreen, #commandsScreen {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ocultar elementos por padrão */
+.hidden {
+    display: none;
+}</style>
+<body>
+
+    <!-- Tela Inicial -->
+    <div id="startScreen">
+        <h1>Meu Jogo Web</h1>
+        <p>Bem-vindo ao jogo! Aqui estão os níveis e seus desafios:</p>
+
+        <h2>Começar o Jogo:</h2>
+        <button id="startButton">Começar</button>
+        <button id="commandsButton">Comandos</button>
+
+        <h3>Level 1:</h3>
+        <p>Você tem que completar os parkours para passar.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Level 2:</h3>
+        <p>Passa as serras com muito cuidado e o trampolim.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Nível 3:</h3>
+        <p>Cuidado com espinhos.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Nível 4:</h3>
+        <p>Cuidado com os sapos.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Nível 5:</h3>
+        <p>Cuidado com o sapo gigante.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Nível 6:</h3>
+        <p>Cuidado com a serra vermelha.</p>
+        <p>Botão Próximo → Pro próximo nível.</p>
+
+        <h3>Nível 7 (Bônus):</h3>
+        <p>Cuidado com o sapo vermelho.</p>
+    </div>
+
+    <!-- Tela de Comandos -->
+    <div id="commandsScreen" style="display: none;">
+        <h1>Comandos</h1>
+        <p>Em breve</p>
+        <button id="backButton">Voltar</button>
+    </div>
+
+    <script src="meugameweb.js"></script>
+
+</body>
+  </html>
